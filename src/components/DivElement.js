@@ -6,7 +6,7 @@ class DivElement extends HTMLElement {
     super('div', content);
     this.content = content;
   }
-  
+
   render() {
     const divElement = new HTMLElement('div', this.content);
     return divElement.render();
