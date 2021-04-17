@@ -11,8 +11,6 @@ class Timer {
       this.seconds -= 1;
     }, 1000);
   }
-};
+}
 
 export default Timer;
-
-
